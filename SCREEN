@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="style/stil.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="signin">
+    <form id="form1" runat="server">
+        <h2> Login Ekranı</h2>
+       <input id="tadi" name="textad" required="required" type="text" runat="server" placeholder="Kullanıcı Adı"/>
+        <input  id="tsifre" name="textsifre" required="required" type="password" runat="server" placeholder="Şifre" /> 
+       <input type="button" class="button" id="Button1" runat="server" onserverclick="Button1_ServerClick" value="Giriş">
+			<div>
+                <input type="text" id="textadi" name="textadi" required="required" runat="server" placeholder="Kullanıcı Adi" />
+      <input  id="txtsfr" name="txtsifre" required="required" type="password" placeholder="Sifre Giriniz" runat="server" >
+     <input  id="sifr" name="sifre" type="password" placeholder="Şifre tekrar" runat="server" >
+      <input type="button" class="button" id="Button2" runat="server" onserverclick="Button2_ServerClick" value ="Kayıt">
+			</div>
+    </form>
+        </div>
+</body>
+</html>
